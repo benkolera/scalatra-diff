@@ -1,0 +1,1 @@
+(:server-root "/home/ben/lib/emacs/ensime-0.1.3/" :project-package "com.benkolera.scalatradiff" :use-sbt t)

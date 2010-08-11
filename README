@@ -1,0 +1,19 @@
+Very simple, standalone webapp for diffing two files.
+
+Build a jar by running:
+
+sbt update
+sbt proguard
+
+Then java -jar target/scala_2.8.0/scalatraDemo-1.0-standalone.jar
+
+Credit to: 
+
+Scalatra Project for their wonderful web app library:
+http://github.com/scalatra/scalatra
+
+Neil Fraser for his nice java based diff library:
+http://code.google.com/p/google-diff-match-patch/
+
+Jetty, for their incredibly nifty embeddable servlet container:
+http://docs.codehaus.org/display/JETTY/Embedding+Jetty
